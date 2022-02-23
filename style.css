@@ -9,10 +9,18 @@ body, html {
     height: 100%;
 }
 
+img {
+  display: block;
+  margin-left: 0vw;
+  margin-right: 0vw;
+  width: 10%;
+  right: 100%;
+}
+
 /* The hero image */
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(./assets/IMG_2545.jpg); 
+  /* Use "linear-gradient" to add a darken background effect to the image this will make the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(./assets/IMG_2545.jpg);
 
   /* Set a specific height */
 height: 100vh;
@@ -45,4 +53,14 @@ color: white;
 /* Contact */
 
 
+/* Resume Link */
+
+
+
 /* Footer */
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}

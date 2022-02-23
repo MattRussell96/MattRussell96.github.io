@@ -6,3 +6,10 @@ Here you can learn about me, my projects, etc.
 
 ---
 
+## Technologies
+
+Here are the technologies I used in order to create this project!
+
+1. HTML
+2. CSS
+3. Bootstrap
