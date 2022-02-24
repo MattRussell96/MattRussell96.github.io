@@ -1,7 +1,15 @@
 /* Navbar */
 .navbar{
     position: fixed;
-    z-index: 1;
+    background-color: rgb(110, 33, 155);
+    color: black;
+    z-index: 2;
+}
+
+.logo {
+  height: 15%;
+  width: 15%;
+  float: right;
 }
 
 /* Landing/Header */
@@ -9,12 +17,10 @@ body, html {
     height: 100%;
 }
 
-img {
-  display: block;
-  margin-left: 0vw;
-  margin-right: 0vw;
-  width: 10%;
-  right: 100%;
+.headshot {
+  float: right;
+  height: 8%;
+  width: 8%;
 }
 
 /* The hero image */
@@ -47,6 +53,9 @@ color: white;
 /* About Me */
 
 
+/* Languages */
+
+
 /* Projects */
 
 
@@ -61,6 +70,6 @@ color: white;
 footer {
   text-align: center;
   padding: 3px;
-  background-color: rgb(0, 0, 0);
-  color: white;
+  background-color: rgb(110, 33, 155);
+  color: black;
 }
